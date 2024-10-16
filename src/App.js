@@ -1,23 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
-
+import CharacterCounter from './components/CharacterCounter';
+import ColorChange from './components/ColorChange';
+import Counter from './components/Counter';
+import Form from './components/Form';
+import IncrementWithDelay from './components/IncrementWithDelay';
+import RandomNumberGenerator from './components/RandomNumberGenerator';
+import ToggleVisibilty from './components/ToggleVisibilty';
+import QuizApp from './components/QuizApp';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="">
+    <Counter/>
+    <ColorChange/>
+    <Form/>
+    <ToggleVisibilty/>
+    <RandomNumberGenerator/>
+    <IncrementWithDelay/>
+    <CharacterCounter/>
+    <QuizApp/>
     </div>
   );
 }
